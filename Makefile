@@ -1,7 +1,7 @@
 CC = gcc
 BIN = student_db
-SOURCES = file.c inout.c main.c
-OBJECTS = $(SOURCES:.c=.o)
+SOURCE = file.c inout.c main.c
+OBJECT = $(SOURCES:.c=.o)
 
 default: $(BIN)
 
@@ -12,6 +12,9 @@ clean:
 	rm $(BIN) $(OBJECTS)
 
 help:
-	@echo "Please run make $(BIN) or just make"
+	@echo "Please run make $(BIN) or just make!"
 
 .PHONY: help clean default
+~
+~
+~
